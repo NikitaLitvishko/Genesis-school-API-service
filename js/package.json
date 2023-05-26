@@ -1,0 +1,25 @@
+{
+  "name": "gses2.app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaLitvishko/Genesis-school-API-service.git"
+  },
+  "author": "NikitaLitvishko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikitaLitvishko/Genesis-school-API-service/issues"
+  },
+  "homepage": "https://github.com/NikitaLitvishko/Genesis-school-API-service#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.2"
+  }
+}
