@@ -1,4 +1,4 @@
-module mod
+module github.com/NikitaLitvishko/Genesis-school-API-service/go
 
 go 1.20
 
