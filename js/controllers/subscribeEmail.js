@@ -1,7 +1,6 @@
 const fs = require('fs');
 
 module.exports = function (req, res) {
-  console.log(req.body);
   let email = '';
   if (req.body) email = req.body.email;
 

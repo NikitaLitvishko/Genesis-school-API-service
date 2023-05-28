@@ -12,8 +12,8 @@ app.use(json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/api/rate', getBitcoinExchangeRate);
-app.get('/api/subscribe', subscribeEmail);
-app.get('/api/sendEmails', sendEmails);
+app.post('/api/subscribe', subscribeEmail);
+app.post('/api/sendEmails', sendEmails);
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
